@@ -14,8 +14,10 @@ const caveat = Caveat({
   display: "swap",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://shaik-munthaj.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://munthaj.com"),
+  metadataBase: new URL(siteUrl),
   title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
   description:
     "Data Analyst and Machine Learning Specialist pursuing MSc in Applied Modelling & Quantitative Methods at Trent University. Expertise in predictive modeling, deep learning, and full-stack development.",
@@ -28,16 +30,26 @@ export const metadata: Metadata = {
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
     description:
       "Turning data into meaningful insights. MSc candidate specializing in predictive modeling, deep learning, and scalable data pipelines.",
-    url: "https://munthaj.com",
+    url: siteUrl,
     siteName: "Shaik Munthaj Portfolio",
     type: "website",
     locale: "en_CA",
     images: [
       {
         url: "/images/munthaj.jpeg",
+        secureUrl: `${siteUrl}/images/munthaj.jpeg`,
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "Shaik Munthaj – Data Analyst & Machine Learning Specialist",
+      },
+      {
+        url: "/Munthaj.jpeg",
+        secureUrl: `${siteUrl}/Munthaj.jpeg`,
+        width: 800,
+        height: 800,
+        type: "image/jpeg",
+        alt: "Shaik Munthaj Portrait",
       },
     ],
   },
@@ -46,7 +58,7 @@ export const metadata: Metadata = {
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
     description:
       "Data Analyst and Machine Learning Specialist pursuing MSc in Applied Modelling & Quantitative Methods at Trent University.",
-    images: ["/images/munthaj.jpeg"],
+    images: [`${siteUrl}/images/munthaj.jpeg`],
   },
 };
 
