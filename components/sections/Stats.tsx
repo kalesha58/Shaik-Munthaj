@@ -12,7 +12,7 @@ const iconMap = {
 
 export function Stats() {
   return (
-    <section className="key-metrics-section">
+    <section className="key-metrics-section hidden lg:block">
       <div className="key-metrics-container">
         
         {/* ── Left info column ── */}

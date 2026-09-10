@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/Button";
 import { navLinks, profile } from "@/data/profile";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -75,22 +75,23 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <Button
             href={profile.resumePath}
             download
-            className="hidden sm:inline-flex"
+            className="flex items-center gap-1.5 text-xs sm:text-sm py-2 px-3 sm:py-2.5 sm:px-5 rounded-xl shadow-sm"
           >
-            Download Resume
+            <Download size={14} className="shrink-0" />
+            <span className="whitespace-nowrap">Download Resume</span>
           </Button>
 
           <button
             type="button"
-            className="rounded-lg p-2 text-dark lg:hidden"
+            className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-slate-100 text-dark hover:bg-slate-200 transition-colors lg:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >
-            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
       </div>

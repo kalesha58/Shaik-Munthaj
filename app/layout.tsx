@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
   description:
-    "Data Analyst and Machine Learning Specialist pursuing MSc in Applied Modelling & Quantitative Methods at Trent University. Expertise in predictive modeling, deep learning, and full-stack development.",
+    "Data Analyst and Machine Learning Specialist with MSc in Applied Modelling & Quantitative Methods from Trent University. Expertise in predictive modeling, deep learning, and full-stack development.",
   icons: {
     icon: "/images/munthaj.jpeg",
     shortcut: "/images/munthaj.jpeg",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
     description:
-      "Turning data into meaningful insights. MSc candidate specializing in predictive modeling, deep learning, and scalable data pipelines.",
+      "Turning data into meaningful insights. Master of Science in Big Data Analytics, specializing in predictive modeling, deep learning, and scalable data pipelines.",
     url: siteUrl,
     siteName: "Shaik Munthaj Portfolio",
     type: "website",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
     description:
-      "Data Analyst and Machine Learning Specialist pursuing MSc in Applied Modelling & Quantitative Methods at Trent University.",
+      "Data Analyst and Machine Learning Specialist with MSc in Applied Modelling & Quantitative Methods from Trent University.",
     images: [`${siteUrl}/images/munthaj.jpeg`],
   },
 };

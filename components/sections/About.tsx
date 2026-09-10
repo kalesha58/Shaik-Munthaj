@@ -8,7 +8,7 @@ import { GraduationCap, MapPin, Target, Users } from "lucide-react";
 const highlights = [
   {
     icon: GraduationCap,
-    label: "Currently Studying",
+    label: "Graduate Degree",
     value: "MSc in Applied Modelling\n& Quantitative Methods",
     color: "blue",
   },
@@ -42,7 +42,7 @@ export function About() {
             <div className="about-blob-frame">
               <div className="about-blob-bg" />
               <Image
-                src="/images/munthaj1.png"
+                src="/images/munthaj.jpeg"
                 alt="Shaik Munthaj – Data Analyst"
                 fill
                 className="about-blob-img"
@@ -74,11 +74,11 @@ export function About() {
 
             <div className="about-bio-body">
               <p>
-                I am a Data Analyst and Machine Learning Specialist currently
-                pursuing a Master of Science in Applied Modelling &amp;
-                Quantitative Methods at Trent University. I have a strong
-                background in computer science, predictive modelling, deep
-                learning, and full-stack web development.
+                I am a Data Analyst and Machine Learning Specialist holding a
+                Master of Science in Applied Modelling &amp; Quantitative Methods
+                from Trent University. I have a strong background in computer
+                science, predictive modelling, deep learning, and full-stack web
+                development.
               </p>
               <p>
                 Currently based in Oshawa, Ontario, I combine rigorous

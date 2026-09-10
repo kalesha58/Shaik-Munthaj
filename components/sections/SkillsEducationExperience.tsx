@@ -317,7 +317,7 @@ export function SkillsEducationExperience() {
                     <span className="font-bold text-slate-800">
                       Commonwealth & Ontario Institutional Accreditation:
                     </span>{" "}
-                    Enrolled in a fully accredited graduate curriculum recognized by the
+                    Completed a fully accredited graduate curriculum recognized by the
                     Council of Ontario Universities (COU), Universities Canada, and
                     the Association of Commonwealth Universities (ACU).
                   </div>
