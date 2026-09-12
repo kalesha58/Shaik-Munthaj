@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { leadership } from "@/data/leadership";
+import { profile } from "@/data/profile";
 import { GraduationCap, MapPin, Target, Users } from "lucide-react";
 
 const highlights = [
@@ -42,10 +43,10 @@ export function About() {
             <div className="about-blob-frame">
               <div className="about-blob-bg" />
               <Image
-                src="/images/munthaj.jpeg"
+                src={profile.photoPath}
                 alt="Shaik Munthaj – Data Analyst"
                 fill
-                className="about-blob-img"
+                className="about-blob-img object-[85%_top]"
                 sizes="(max-width: 768px) 90vw, 360px"
                 priority
               />

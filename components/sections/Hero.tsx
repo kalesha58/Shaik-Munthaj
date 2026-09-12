@@ -48,11 +48,11 @@ function HeroPhoto() {
     <div className="relative h-full w-full">
       {/* Photo */}
       <Image
-        src="/images/munthaj.jpeg"
+        src={profile.photoPath}
         alt="Shaik Munthaj – Data Analyst & Machine Learning Specialist"
         fill
         priority
-        className="object-cover object-center"
+        className="object-cover object-[85%_center]"
         sizes="45vw"
       />
 
@@ -242,11 +242,11 @@ export function Hero() {
               {/* Curved backdrop container */}
               <div className="relative w-full aspect-[0.72] max-w-[190px] overflow-hidden rounded-tl-[100px] rounded-bl-[80px] rounded-tr-3xl rounded-br-2xl bg-gradient-to-br from-blue-100/90 via-sky-50 to-indigo-50/50 shadow-md">
                 <Image
-                  src="/images/munthaj1.png"
+                  src={profile.photoPath}
                   alt="Shaik Munthaj – Data Analyst & Machine Learning Specialist"
                   fill
                   priority
-                  className="object-cover object-top"
+                  className="object-cover object-[85%_top]"
                   sizes="45vw"
                 />
               </div>

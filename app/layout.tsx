@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   description:
     "Data Analyst and Machine Learning Specialist with MSc in Applied Modelling & Quantitative Methods from Trent University. Expertise in predictive modeling, deep learning, and full-stack development.",
   icons: {
-    icon: "/images/munthaj.jpeg",
-    shortcut: "/images/munthaj.jpeg",
-    apple: "/images/munthaj.jpeg",
+    icon: "/images/munthaj-hero.png",
+    shortcut: "/images/munthaj-hero.png",
+    apple: "/images/munthaj-hero.png",
   },
   openGraph: {
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
@@ -36,20 +36,12 @@ export const metadata: Metadata = {
     locale: "en_CA",
     images: [
       {
-        url: "/images/munthaj.jpeg",
-        secureUrl: `${siteUrl}/images/munthaj.jpeg`,
+        url: "/images/munthaj-hero.png",
+        secureUrl: `${siteUrl}/images/munthaj-hero.png`,
         width: 1200,
         height: 630,
-        type: "image/jpeg",
+        type: "image/png",
         alt: "Shaik Munthaj – Data Analyst & Machine Learning Specialist",
-      },
-      {
-        url: "/Munthaj.jpeg",
-        secureUrl: `${siteUrl}/Munthaj.jpeg`,
-        width: 800,
-        height: 800,
-        type: "image/jpeg",
-        alt: "Shaik Munthaj Portrait",
       },
     ],
   },
@@ -58,7 +50,7 @@ export const metadata: Metadata = {
     title: "Shaik Munthaj | Data Analyst & Machine Learning Specialist",
     description:
       "Data Analyst and Machine Learning Specialist with MSc in Applied Modelling & Quantitative Methods from Trent University.",
-    images: [`${siteUrl}/images/munthaj.jpeg`],
+    images: [`${siteUrl}/images/munthaj-hero.png`],
   },
 };
 

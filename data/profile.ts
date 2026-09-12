@@ -9,6 +9,7 @@ export const profile = {
   email: "munthajshaik54@gmail.com",
   phone: "+1 343 987 4354",
   resumePath: "/resume/Munthaj-Resume.pdf",
+  photoPath: "/images/munthaj-hero.png",
   social: {
     linkedin: "https://www.linkedin.com/in/munthaj-shaik-77863a223/",
     github: "#",
